@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_catalog_product_bundle>
+        <reference name="head">
+            <action method="removeItem"><type>js</type><name>mage/adminhtml/grid.js</name></action>
+            <action method="addJs"><script>ghoster/adminhtml/grid.js</script></action>
+        </reference>
+    </adminhtml_catalog_product_bundle>
+</layout>
